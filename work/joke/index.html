@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  
+    <title>Ajax</title>
+</head>
+<body>
+    <button id="today">今日笑話</button>
+    <button id="2022/12/23">20221223</button>
+    <button id="2022/12/01">20221201</button>
+    <button id="random">隨機</button>
+
+    <div>
+        <p>
+             
+            <span id="showData"></span>
+            
+        </p>
+    </div>
+    
+    <script>
+        var Today=new Date("2022/12/23 12:01:01");
+        console.log(Today);
+        console.log(Today.toISOString());
+       var now= Today.toISOString().split('T')[0];
+    console.log(now.replace(/-/g,''));
+    </script>
+
+    <script src=" //unpkg.com/jquery"></script>
+   
+    <script src="main.js"></script>
+</body>
+</html>
