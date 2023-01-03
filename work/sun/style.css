@@ -1,0 +1,10 @@
+#sun {
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    background-color: gold;
+    left: 130px;
+    top: 10px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 20px yellow;
+}

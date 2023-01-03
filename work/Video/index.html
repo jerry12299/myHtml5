@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>video</title>
+    <link rel="shortcut icon" href="#">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <video id="myVideo" width="420" height="320"></video><br>
+    <button id="playBtn">Play</button>
+    <button id="fullBtn">FullScreen</button>
+    <br>
+    <div>
+        <p>volume : <span id="voldisplay">?</span>
+            <button id="lowerVol">-</button>
+            <button id="heightVol">+</button>
+            <input type="range" id="volbar"  min="0" value="0">
+
+        </p>
+    </div>
+    <div>
+        <p>
+            Time : <span id="timeDisplay">? / ?</span><br> 
+            <input type="range" id="proBar"  min="0" value="0">
+        </p>
+        
+    </div>
+    <script src=" //unpkg.com/jquery">
+    </script>
+    <script src="main.js">
+    </script>
+</body>
+
+</html>

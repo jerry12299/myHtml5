@@ -1,5 +1,5 @@
 
-let thisButton = document.getElementById("today");
+let thisButton = document.getElementById("2022/12/22");
 let thisButton2 = document.getElementById("2022/12/23");
 let thisButton3 = document.getElementById("2022/12/01");
 let showData = document.getElementById("showData");

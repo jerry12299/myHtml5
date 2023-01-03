@@ -1,0 +1,12 @@
+#dropbox{
+    width: 500px;
+    height: 300px;
+    padding: 10px;
+    background-color: lightblue;
+    color: white;
+    font-size: 24px;
+}
+
+#preview{
+    font-size: 24px;
+}
