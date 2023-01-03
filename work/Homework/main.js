@@ -5,8 +5,7 @@ thisButton2.addEventListener("click",loadServerData);
 thisButton.addEventListener("click",loadServerData);
 let thisButton3 = document.getElementById("2022/12/30");
 thisButton3.addEventListener("click",loadServerData);
-let thisButton4 = document.getElementById("2022/12/31");
-thisButton4.addEventListener("click",loadServerData);
+
 
 function loadServerData(){
    
